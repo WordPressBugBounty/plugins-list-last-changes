@@ -6,7 +6,7 @@ Requires at least: 4.6.0
 Tested up to: 6.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 
 Shows a list of the last changes of a WordPress site.
 
@@ -73,6 +73,12 @@ Sample templates:
 
 == Changelog ==
 
+= 1.2.1 =
+
+*Release date: April 16, 2025*
+
+* fixed XSS vulnerability
+
 = 1.2.0 =
 
 *Release date: October 02, 2024*
@@ -99,12 +105,6 @@ Sample templates:
 * new field {published_date} in the template string to show the date the page or post was published ("post date")
 * new field {editor} in the template string to show the last editor of the page or post
 
-= 1.0.5 =
-
-*Release date: November 12, 2023*
-
-* Bugfix for limit the ignored pages or posts to the number of posts per page (regression of 1.0.2).
-
 = Older releases =
 see [additional changelog.txt file](https://plugins.svn.wordpress.org/list-last-changes/trunk/changelog.txt)
 
@@ -116,6 +116,14 @@ see [additional changelog.txt file](https://plugins.svn.wordpress.org/list-last-
 4. Add this custom field on a page to exclude it from being listed in the widget.
 
 == Frequently Asked Questions ==
+
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program.
+The Patchstack team help validate, triage and handle any security vulnerabilities.
+[Report a security vulnerability.](https://patchstack.com/database/vdp/list-last-changes)
+
+Or you send them directly to [info@rolandbaer.ch](mailto:info@rolandbaer.ch).
 
 = Where are your Frequently Asked Questions? Why aren't they here? =
 
